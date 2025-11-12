@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "Twitch Clip Redirect",
+  "version": "6.4",
+  "description": "Redirects twitch.tv clip links to clips.twitch.tv for a better player",
+  "author": "Hausken",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "@hausken-clip-redirect",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://www.twitch.tv/*/clip/*",
+    "*://twitch.tv/*/clip/*"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
