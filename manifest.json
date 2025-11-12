@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Twitch Clip Redirect",
-  "version": "6.4",
+  "version": "6.7",
   "description": "Redirects twitch.tv clip links to clips.twitch.tv for a better player",
   "author": "Hausken",
   "browser_specific_settings": {
