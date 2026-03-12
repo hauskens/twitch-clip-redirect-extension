@@ -1,5 +1,7 @@
 # Twitch Clip Redirect Plugin
 
+[link to firefox ext.](https://addons.mozilla.org/en-US/firefox/addon/twitch-clip-redirect)
+
 The intention of this Firefox extension is to automatically send you to `clips.twitch.tv` when using `twitch.tv` clip links.
 
 This is because the clip player on `twitch.tv` is glitchy and has been so for several months.
